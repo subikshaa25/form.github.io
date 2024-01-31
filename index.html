@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>form</title>
+</head>
+<body bgcolor="white">
+<!--FORMS-->
+<h1><i>BIO-DATA </i>
+</h1>
+<form action="/text.php" method="get">
+firstname:<input type="text" name="firstname" />
+<br><br>
+lastname:<input type="text" name="lastname" />
+<br><br>
+password:<input type="passowrd" name="password" />
+<br><br>
+<textarea rows="5" cols="50" name="about" >
+DESCRIBE ABOUT YOURSELF:
+</textarea>
+<br><br>
+<input type="checkbox" name="maths" value="on">maths
+<input type="checkbox" name="science" value="on">science
+<br><br>
+<input type="radio" name="gender" value="on">male
+<input type="radio" name="gender" value="on">female
+<br><br>
+HOBBY:
+<select name="dropdown"><option value="books" selected>books</option>
+<option value="TV" selected>TV</option>
+<option value="Music" selected>Music</option>
+</select>
+<br><br>
+<input type ="file" name="fileupload"/>
+<br><br>
+<input type ="file" name="myfile" multiple/>
+<br><br>
+<input type ="file" name="fileupload" accept="image/*"/>
+<br><br>
+<input type="submit">
+</form>
+</body>
+</html>
